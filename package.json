@@ -3,6 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://OoTibaltoO.github.io/React-Orecipes",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
