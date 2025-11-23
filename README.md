@@ -1,4 +1,4 @@
-# 🚀 Voici le site personnel disponible ici : [https://ootibaltoo.github.io/](https://ootibaltoo.github.io/) 
+# 🚀 Voici le site personnel disponible ici : https://ootibaltoo.github.io/React-Orecipes/
 
 # 📱 Orecipes App - Application de Gestion de Recettes
 
