@@ -6,6 +6,12 @@
 
 ## 🎯 Vue d'ensemble du projet
 
+![alt text](<public/Screenshot 2025-11-23 at 22-00-53 orecipes-app.png>)
+
+![alt text](<public/Screenshot 2025-11-23 at 22-04-07 orecipes-app.png>)
+
+![alt text](<public/Screenshot 2025-11-23 at 22-04-36 orecipes-app.png>)
+
 **Orecipes** est une application web de gestion de recettes de cuisine développée en React avec TypeScript. Il s'agit d'un projet pédagogique conçu pour pratiquer et maîtriser les concepts fondamentaux de React dans un contexte d'apprentissage.
 
 L'application permet aux utilisateurs de :
