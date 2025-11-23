@@ -12,7 +12,9 @@
         "format:fix": "biome format --write ./src",
         "check": "biome check ./src",
         "check:fix": "biome check --write ./src",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "react": "^19.2.0",
