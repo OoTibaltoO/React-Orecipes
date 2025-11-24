@@ -41,16 +41,16 @@ const Recipes = () => {
     return sorted;
   }, [searchQuery, difficultyFilter, sortBy]);
 
-  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(e.target.value);
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(event.currentTarget.value);
   };
 
-  const handleDifficultyChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setDifficultyFilter(e.target.value as Recipe["difficulty"] | "all");
+  const handleDifficultyChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setDifficultyFilter(event.currentTarget.value as Recipe["difficulty"] | "all");
   };
 
-  const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setSortBy(e.target.value as "title" | "difficulty" | "time");
+  const handleSortChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSortBy(event.currentTarget.value as "title" | "difficulty" | "time");
   };
 
   const clearFilters = () => {
