@@ -181,14 +181,13 @@ Ce projet s'inscrit dans un parcours d'apprentissage React où l'accent est mis 
 
 ## 🤝 Contribution
 
-Ce projet étant à des fins éducatives, n'hésitez pas à :
+Ce projet est disponible en accès public à des fins démonstratives ou éducatives. La redistribution ou la modification du code n’est autorisée qu’avec l’accord préalable de l’auteur si vous souhaitez :  
 
-- Ajouter de nouvelles recettes dans `src/data/recipes.ts`
-- Améliorer les styles CSS
-- Implémenter de nouvelles fonctionnalités
-- Optimiser les performances
+- l’utiliser dans un autre projet 
+- le publier ailleurs
+- ou en modifier une partie
 
 ## 📝 License
 
 Projet éducatif - Libre d'utilisation pour l'apprentissage (non à but commercial)
-© 2025 OoTibaltoO
+© 2025 OoTibaltoO - Tous droits réservés.
