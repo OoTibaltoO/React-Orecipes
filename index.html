@@ -2,7 +2,6 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ORecipes - Découvrez et gérez vos recettes préférées avec notre application moderne et intuitive" />
     <meta name="keywords" content="recettes, cuisine, food, cooking, recipes" />
@@ -260,7 +259,7 @@
       <div class="container">
         <h1>🍳 ORecipes</h1>
         <p>Découvrez et gérez vos recettes préférées avec notre application moderne et intuitive</p>
-        <a href="#" class="cta-button" onclick="loadApp()">Découvrir l'Application</a>
+        <a href="./app.html" class="cta-button">Découvrir l'Application</a>
       </div>
     </section>
 
@@ -352,32 +351,9 @@
       </div>
     </footer>
 
-    <!-- Hidden App Container -->
-    <div id="root" style="display: none;"></div>
-    <script type="module" src="/src/main.tsx"></script>
-
     <script>
-      function loadApp() {
-        // Masquer toutes les sections de la page vitrine
-        const sections = document.querySelectorAll('header, .hero, .features, .tech-stack, footer');
-        sections.forEach(section => {
-          section.style.display = 'none';
-        });
-        
-        // Réinitialiser le style du body pour l'app
-        document.body.style.background = '';
-        document.body.style.minHeight = '100vh';
-        
-        // Afficher l'application React
-        const rootElement = document.getElementById('root');
-        rootElement.style.display = 'block';
-        
-        // Mettre à jour le titre
-        document.title = 'ORecipes - Application';
-      }
-      
       // Smooth scrolling pour les liens d'ancrage
-      document.querySelectorAll('a[href^="#"]:not([onclick])').forEach(anchor => {
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (event) {
           event.preventDefault();
           const target = document.querySelector(this.getAttribute('href'));
